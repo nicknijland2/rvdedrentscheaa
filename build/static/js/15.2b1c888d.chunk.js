@@ -1,0 +1,2 @@
+(this.webpackJsonpdrentsche=this.webpackJsonpdrentsche||[]).push([[15],{165:function(e,s,t){"use strict";t.r(s);var o=t.p+"static/media/horse.af31b329.mp4",c=t(25),r=t(2);s.default=function(){var e=Object(c.j)();return Object(r.jsx)("div",{className:e.videoHolder,children:Object(r.jsxs)("video",{className:e.videoContent,autoPlay:!0,muted:!0,loop:!0,children:[Object(r.jsx)("source",{src:o,type:"video/mp4"}),"Your browser is not supported to show this video"]})})}}}]);
+//# sourceMappingURL=15.2b1c888d.chunk.js.map
