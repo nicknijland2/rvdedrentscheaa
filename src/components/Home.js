@@ -1,5 +1,5 @@
 import { useHomeStyles, useGenericWrapper, useAboutStyles, useTableStyles } from '../styles/overRides'
-import { Button ,Paper, Grid, Typography, Avatar,IconButton,Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core'
+import {Button ,Paper, Grid, Typography, Avatar,IconButton,Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core'
 import FACEBOOK from '../images/SVG/facebook.svg';
 import INSTAGRAM from '../images/SVG/instagram.svg';
 import { lazy,Suspense } from 'react';
@@ -86,22 +86,22 @@ const Home = (props) => {
                     </Grid>
                 </div>
             </div>
-            <div className={classes.homeWrapper} style={{marginTop:'15px'}}>
+            <div className={classes.homeWrapper} style={{marginTop:'50px'}}>
                 <Grid justifyContent='center' container spacing={0} m={4}>
-                    <Grid item xs={5} style={{padding:'0px 10px 0px 0px'}}>
-                        <Typography className={classes.homeHeader} variant="h3">Over Ons</Typography>
+                    <Grid item xs={12} md={5} style={{padding:'0px 10px 0px 0px'}}>
+                        <Typography className={classes.homeHeader} variant="h2">Over Ons</Typography>
                         <Typography variant="body1" style={{textAlign:'justify'}}>Landelijke rijvereniging & ponyclub De Drentsche Aa is ontstaan uit de behoefte aan een ouderwetse rijvereniging van weleer. Een vereniging waar onderlinge verbondenheid en saamhorigheid de boventoon voeren. Waar de verenigingslessen een avondje uit zijn en in de kantine de sfeer hangt van een bruin café. Vanuit die gedachte heeft op woensdag 17 maart 2021 de eerste verkennende bespreking plaatsgevonden tussen de bestuursleden en vele vergaderingen later zag landelijke rijverenging & ponyclub De Drentsche Aa op 1 augustus het levenslicht.</Typography>
                         
                         <Typography variant="body1" style={{marginTop:'8px',textAlign:'justify'}} >Wij willen een actieve vereniging zijn waar de verenigingslessen en -activiteiten een plaats van ontmoeting en gezelligheid zijn. Naast gezelligheid is het aanbieden van kwaliteitsvolle lessen een belangrijk speerpunt. Gedreven en deskundige instructeurs geven les aan combinaties van alle leeftijden en niveaus in de disciplines dressuur en springen. Zowel de wedstrijdruiters als de recreanten zijn van harte welkom.</Typography>
                     </Grid>
-                    <Grid>
-                        <img src="/rolf-image.jpg" alt="Rolf" />
+                    <Grid item >
+                        <img src="/rolf-image.jpg" alt="Rolf" style={{maxWidth:'99%'}}/>
                     </Grid>
                 </Grid>
             </div>
-            <div className={classes.homeWrapper} style={{marginTop:'40px'}}>
+            <div className={classes.homeWrapper} style={{marginTop:'80px'}}>
                 <Grid justifyContent='center' container style={{marginBottom:'20px'}}>
-                <Typography className={classes.homeHeader} variant="h3">Besturrsleden</Typography>
+                <Typography className={classes.homeHeader} variant="h2">Bestuursleden</Typography>
                  </Grid>   
                 <Carousel responsive={responsive} autoPlaySpeed={1000}  infinite={true} ssr={true}>
                     <div style={{textAlign:'center'}}>
@@ -129,12 +129,17 @@ const Home = (props) => {
                         <Typography className={classes.homeHeader} variant="h6">Nancy Bootsman</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Voorzitter</Typography> 
                     </div>
+                    <div style={{textAlign:'center'}}>
+                        <img src="/members/miranda.jpg" style={{width:'280px',height:'280px',borderRadius:'194px'}} alt="nancy"/>
+                        <Typography className={classes.homeHeader} variant="h6">Miranda Trip</Typography>
+                        <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography> 
+                    </div>
                 </Carousel>;
             </div>
-            <div className={generics.root} style={{marginTop:'60px'}}>
+            <div className={generics.root} style={{marginTop:'80px'}}>
             <Grid container spacing={4}>
                 <Grid justifyContent='center' container style={{marginBottom:'0px'}}>
-                    <Typography className={classes.homeHeader} variant="h3">Lidmaatschap en contributie</Typography>
+                    <Typography className={classes.homeHeader} variant="h2">Lidmaatschap en contributie</Typography>
                 </Grid>
                 <Grid item xs={12}>
                     <div className={aboutclasses.paragraph}>
@@ -284,25 +289,26 @@ const Home = (props) => {
                 </Grid>
             </Grid>
         </div>
-        <div className={classes.homeWrapper} style={{marginTop:'40px'}}>
-            <Grid justifyContent='center' container style={{marginBottom:'0px'}}>
-                <Typography className={classes.homeHeader} variant="h3">Contact</Typography>
+        <div className={classes.homeWrapper} style={{marginTop:'80px'}}>
+            <Grid justifyContent='center' xs={3} container spacing={0} style={{marginBottom:'0px'}}>
+                <Typography className={classes.homeHeader} variant="h2">Contact</Typography>
             </Grid>
             <Grid justifyContent='center' container spacing={0}>
-                <Grid item xs={11}>
+                <Grid item xs={12} md={11}>
                 <div className={aboutclasses.paragraph}>
-                            <Paper className={aboutclasses.paper} elevation={1} square >
+                            <Paper className={aboutclasses.paper} elevation={1} square>
                             <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
                                 Leden Contact
                             </Typography>
                                 <Typography className={aboutclasses.text} gutterBottom variant="body1">
-                                    <ul>
-                                        <li>Voorzitter Nancy Bootsma: e-mail@.nl</li>
-                                        <li>Voorzitter Nancy Bootsma: e-mail@.nl</li>
-                                        <li>Voorzitter Nancy Bootsma: e-mail@.nl</li>
-                                        <li>Voorzitter Nancy Bootsma: e-mail@.nl</li>
-                                        <li>Voorzitter Nancy Bootsma: e-mail@.nl</li>
-                                    </ul>
+                                    <table>
+                                        <tr><td style={{width:'19%'}}><strong>Marije</strong></td><td>secretaris.lrdedrentscheaa@gmail.com</td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Nancy</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Rolf</strong></td><td> penningmeester.lrdedrentscheaa@gmail.com</td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Marcel</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Miranda</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Chantal</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
+                                    </table>
                                 </Typography>
                             </Paper>
                         </div>

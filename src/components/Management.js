@@ -7,6 +7,7 @@ import VICE from '../images/members/vice.png';
 import MARCEL from '../images/members/marcel.png';
 import MARIJKE from '../images/members/marijke.png';
 import NANCY from '../images/members/nancy.png';
+import MIRANDA from '../images/members/miranda.jpg';
 const Management = () => {
     console.log("Management Loaded");
     const generics = useGenericWrapper()
@@ -62,7 +63,7 @@ const Management = () => {
                 <CustomCard
                   title={`Algemeen bestuurslid`}
                   name={`Miranda Trip`}
-                  photo={PRESIDENT}
+                  photo={MIRANDA}
                   description1={`Mijn naam is Miranda Trip en ik ben professioneel dressuurinstructrice. In 1995 heb ik mijn opleiding aan het NHB Deurne succesvol afgerond. Vervolgens heb ik een aantal jaren als amazone gewerkt op een hengstenhouderij en dressuurstal in Duitsland. Hier heb ik vele paarden opgeleid en veel ervaring opgedaan als spring- en dressuurruiter. Terug in Nederland ben ik mijn eigen dressuurstal begonnen in Oosterhesselen. Ook hier stond het opleiden van paarden centraal. In 2008 ben ik met mijn gezin naar Tynaarlo verhuisd en startte ik mijn dressuurstal Tynaarlo Dressage, een kleinschalige en exclusieve dressuurstal waar kwaliteitsvolle dressuurpaarden deskundig worden opgeleid. Ik ben in mijn hele loopbaan heel actief geweest in de sport als spring- en dressuurruiter. Diverse paarden heb ik op hoog niveau tot aan de Lichte Tour mogen uitbrengen, waarbij ik successen heb behaald op regionale en nationale kampioenschappen. Ik geef dressuurlessen aan privéklanten en praktijklessen aan het Terra College in Assen. Ook heb ik met Chantal Wieringa en nog een collega een ponyopleiding genaamd ‘Equikidz’ waarbij we kinderen zowel praktijk- als theorielessen geven. De eerste periode zal ik de ponylessen bij de vereniging voor mijn rekening nemen. Na verloop van tijd hoop ik zelf mee te rijden met de verenigingslessen.`} 
                   description2={undefined}
                   description3={`Bij vragen over de verenigingslessen kun je contact met mij opnemen.`}
