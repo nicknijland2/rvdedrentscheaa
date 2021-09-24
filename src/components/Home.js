@@ -68,7 +68,7 @@ const Home = (props) => {
                 <div className={classes.gridWrapper}>
                     <Grid justifyContent='center' container>
                         <Grid className={classes.homeGrid} md={6} item>
-                            <Typography xs={6} className={classes.homeHeader} variant="h2">Welkom bij</Typography>
+                            <Typography xs={6} className={classes.homeHeader} style={{fontSize:'3.6rem'}}>Welkom bij</Typography>
                             
                         </Grid>
                         <Grid className={classes.homeGrid}>
@@ -94,6 +94,11 @@ const Home = (props) => {
                         <Typography variant="body1" style={{textAlign:'justify'}}>Landelijke rijvereniging & ponyclub De Drentsche Aa is ontstaan uit de behoefte aan een ouderwetse rijvereniging van weleer. Een vereniging waar onderlinge verbondenheid en saamhorigheid de boventoon voeren. Waar de verenigingslessen een avondje uit zijn en in de kantine de sfeer hangt van een bruin café. Vanuit die gedachte heeft op woensdag 17 maart 2021 de eerste verkennende bespreking plaatsgevonden tussen de bestuursleden en vele vergaderingen later zag landelijke rijverenging & ponyclub De Drentsche Aa op 1 augustus het levenslicht.</Typography>
                         
                         <Typography variant="body1" style={{marginTop:'8px',textAlign:'justify'}} >Wij willen een actieve vereniging zijn waar de verenigingslessen en -activiteiten een plaats van ontmoeting en gezelligheid zijn. Naast gezelligheid is het aanbieden van kwaliteitsvolle lessen een belangrijk speerpunt. Gedreven en deskundige instructeurs geven les aan combinaties van alle leeftijden en niveaus in de disciplines dressuur en springen. Zowel de wedstrijdruiters als de recreanten zijn van harte welkom.</Typography>
+
+                        <Typography variant="body1" style={{marginTop:'8px',textAlign:'justify'}} >
+                        Ons voornemen is een actieve vereniging te worden als het gaat om het organiseren van wedstrijden en activiteiten.
+                            Passend bij onze ambities hebben wij als uitvalsbasis de prachtige locatie van Sunrise Stables in Assen. Hier vinden onze verenigingslessen en overige activiteiten plaats.
+                        </Typography>
                     </Grid>
                     <Grid item >
                         <img src="/office.jpg" alt="Office" style={{maxWidth:'99%'}}/>
@@ -106,32 +111,32 @@ const Home = (props) => {
                  </Grid>   
                 <Carousel responsive={responsive} autoPlaySpeed={2000}  infinite={true} ssr={true} autoPlay={true}>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/president.jpg" style={{width:'280px',height:'280px'}} alt="President"/>
+                        <img src="/members/president.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="President"/>
                         <Typography className={classes.homeHeader} variant="h6">Chantal Wieringa</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography>
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/vice.jpg" style={{width:'280px',height:'280px'}} alt="vice president"/>
+                        <img src="/members/vice.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="vice president"/>
                         <Typography className={classes.homeHeader} variant="h6">Rolf Boer</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Penningmeester</Typography>
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/marcel.jpg" style={{width:'280px',height:'280px'}} alt="marcel"/>
+                        <img src="/members/marcel.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="marcel"/>
                         <Typography className={classes.homeHeader} variant="h6">Marcel Hulzebosa</Typography> 
                         <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography>   
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/marijke.jpg" style={{width:'280px',height:'280px'}} alt="marijke"/>
+                        <img src="/members/marijke.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="marijke"/>
                         <Typography className={classes.homeHeader} variant="h6">Marije de Vries</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Secretaris en vice-voorzitter</Typography>   
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/nancy.jpg" style={{width:'280px',height:'280px'}} alt="nancy"/>
+                        <img src="/members/nancy.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="nancy"/>
                         <Typography className={classes.homeHeader} variant="h6">Nancy Bootsman</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Voorzitter</Typography> 
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/miranda.jpg" style={{width:'280px',height:'280px'}} alt="nancy"/>
+                        <img src="/members/miranda.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="nancy"/>
                         <Typography className={classes.homeHeader} variant="h6">Miranda Trip</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography> 
                     </div>

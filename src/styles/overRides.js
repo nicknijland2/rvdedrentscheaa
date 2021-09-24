@@ -293,10 +293,9 @@ export const useFooterStyles = makeStyles({
     footerWrapper :{
         padding:"3rem",
         marginTop:'2rem',
-        backgroundColor:'#F5F5F6',
     },
     imgHolder:{
-        maxWidth:'10rem',
+        maxWidth:'8rem',
     },
     img:{
         maxWidth:'100%'

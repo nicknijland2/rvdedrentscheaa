@@ -197,27 +197,23 @@ const Members = () => {
                     </div>
                     <div className={classes.paragraph}>
                         <Paper className={classes.paper} elevation={2} square >
-                            <Typography className={classes.text} gutterBottom variant="body1">
-                                Bij inschrijving wordt eenmalig een bedrag van € 2,50 in rekening gebracht. Word je lid van onze vereniging dan ontvang je een sjabrak met verenigingslogo als ontvangstcadeau. Het wordt bijzonder gewaardeerd als dit sjabrak door leden wordt gebruikt bij wedstrijden en clubactiviteiten.
-                            </Typography>
-                        </Paper>
-                    </div>
-                    <div className={classes.paragraph}>
-                        <Paper className={classes.paper} elevation={2} square >
                             <Typography className={classes.lessonHeader} gutterBottom variant="h5">
                                 Lessen
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
-                                125,00 € per kwartaal voor 1x per week les in kleine groepen.
+                                € 120,00 per kwartaal voor 1x per week les in kleine groepen.
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
-                                De lessen gaan het gehele jaar door met uitzonderlijk van erkende feestdagen.
+                            De lessen gaan het gehele jaar door met uitzonderlijk van 4 weken vakantie (1 week kerstvakantie en 3 weken zomervakantie).
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
-                                De opzegtermijn van de lessen bedraagt 1 volledig kwartaal. Voorbeeld: wordt in februari opgezegd, dan worden de lessen en betaling stopgezet per 1 juli.
+                            De opzegtermijn van de lessen bedraagt 1 volledig kwartaal. Voorbeeld: wordt in februari opgezegd, dan worden de lessen en betaling stopgezet per 1 juli.
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
                                 De contributie en overige lidmaatschapskosten worden geïncasseerd via automatische incasso.
+                            </Typography>
+                            <Typography className={classes.text} gutterBottom variant="body1">
+                                Bij de bedragen het € voor het bedrag neerzetten en niet erna
                             </Typography>
                         </Paper>
                     </div>

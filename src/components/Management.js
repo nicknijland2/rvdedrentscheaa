@@ -22,12 +22,9 @@ const Management = () => {
                     title={`Voorzitter`}
                     name={`Nancy Bootsman`}
                     photo={NANCY}
-                    description1={`Mijn hele leven ben ik al gepassioneerd door alles wat met paarden te maken heeft. Zelf was ik vanaf mijn zesde zo vaak mogelijk te vinden op de ponymanege de Wroetende Mol in Bedum. De wedstrijdsport heb ik gestaakt na de geboorte van mijn tweede dochter. De eerste alinea moet blijven zoals hij is en dan na de zin de rode tekst
-                    hieronder toevoegen en de tekst die er nu staat weghalen. Zij rijden nu beiden fanatiek paard en pony en de liefde voor de dieren zie ik bij hen terug.`} 
-                    description2={`Wij proberen met De Drentsche Aa een vereniging op te bouwen waarin we op een plezierige manier met elkaar van de paardensport kunnen genieten. Met de ervaring die we meenemen in het bestuur, hopen we een kwalitatief goed aanbod te doen in instructie en activiteiten. We hopen het verenigingsgevoel aan te wakkeren en leden te enthousiasmeren voor vrijwilligerstaken.`}
-                    description3={`Ik ben woonachtig in Annen, getrouwd met Rene, en moeder van Annabel en
-                    Charlotte. In het dagelijks leven ben ik zelfstandig bedrijfsarts en eigenaar van
-                    2 ondernemingen. Bij vragen over algemene zaken kun je contact met mij opnemen.`}
+                    description1={`Mijn hele leven ben ik al gepassioneerd door alles wat met paarden te maken heeft. Zelf was ik vanaf mijn zesde zo vaak mogelijk te vinden op de ponymanege de Wroetende Mol in Bedum. De wedstrijdsport heb ik gestaakt na de geboorte van mijn tweede dochter. Zij rijden nu beiden fanatiek paard en pony en de liefde voor de dieren zie ik bij hen terug. Ik ben woonachtig in Annen, getrouwd met René, en moeder van Annabel en Charlotte. In het dagelijks leven ben ik zelfstandig bedrijfsarts en eigenaar van 2 ondernemingen.`} 
+                    description2={`Bij vragen over algemene zaken kun je contact met mij opnemen.`}
+                    
                     
                 />
                 
@@ -76,7 +73,7 @@ const Management = () => {
             </Grid>
             <Grid className={classes.grid} item lg={6} md={12} sm={12}>
                 <CustomCard
-                  title={`Algemeen bestuurslid`}
+                  title={`Algemeen commissielid en coördinator social media`}
                   name={`Chantal Wieringa`}
                   photo={PRESIDENT}
                   description1={`Mijn naam is Chantal Wieringa. Al van jongs af aan ben ik bezig in de paardenwereld. Ik ben in het bezit van een kwpn ruin Glenn v. Up to Date, die ik als veulen gekocht heb. Samen mogen wij nu M2 dressuur starten. Onder begeleiding van Miranda trainen wij rustig door. In het dagelijks leven geef ik les op een vmbo school. Mijn ervaring als docent gecombineerd met mijn ervaring met paarden neem ik mee tijdens de (theorie)lessen van Equikidz, een ponyopleiding die ik samen heb met Miranda en nog een collega.`} 

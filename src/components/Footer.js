@@ -2,11 +2,16 @@ import { Grid,Link,Typography } from '@material-ui/core'
 
 import { withRouter } from "react-router";
 import { useFooterStyles } from "../styles/overRides";
-import EXPERT from '../images/expert.png';
+import EXPERT from '../images/expert.jpg';
 import ST from '../images/st.jpg';
 import TR from '../images/tr.png';
 import DR from '../images/dressage.jpg';
 import NY from '../images/nyland.jpg';
+
+import CV from '../images/camping-veenmeer.jpg';
+import CO from '../images/coop.jpg';
+import PN from '../images/pensionstal.jpg';
+import EQ from '../images/equine.png';
 
 const Footer = (props) => {
   const classes = useFooterStyles()
@@ -40,6 +45,26 @@ return(
           </Grid>
           <Grid  item>
               <div className={classes.imgHolder} >
+                  <img alt="sponsor" className={classes.img} src={CV} />
+              </div>
+          </Grid>
+          <Grid  item>
+              <div className={classes.imgHolder} >
+                  <img alt="sponsor" className={classes.img} src={CO} />
+              </div>
+          </Grid>
+          <Grid  item>
+              <div className={classes.imgHolder} >
+                  <img alt="sponsor" className={classes.img} src={PN} />
+              </div>
+          </Grid>
+          <Grid  item>
+              <div className={classes.imgHolder} >
+                  <img alt="sponsor" className={classes.img} src={EQ} />
+              </div>
+          </Grid>
+          <Grid  item>
+              <div className={classes.imgHolder} >
                   <img alt="sponsor" className={classes.img} src={NY} />
               </div>
           </Grid>
@@ -59,7 +84,7 @@ return(
        </Grid>
        <Grid alignItems="center" justifyContent="center" container spacing={3} style={{marginTop:'2em'}}>
             <Typography gutterBottom variant="body1">
-                Website ontwikkeling door <img src="/nyland-thumb.jpg" alt="nyland thumb" />
+                Website ontwikkeling door <a href="#"><img src="/nyland-thumb.jpg" alt="nyland thumb" /></a>
             </Typography>    
        </Grid>
     </div>
