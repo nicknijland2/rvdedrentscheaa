@@ -30,27 +30,27 @@ console.log("Contact Loaded");
                                 <Typography className={contactClasses.header} gutterBottom variant='h4'>Leden Contact</Typography>
                                 <div className={contactClasses.member}>
                                   <Typography className={contactClasses.name} gutterBottom variant='body1' >Voorzitter Nancy Bootsma</Typography>
-                                  <Typography className={contactClasses.name} >e-mail@.nl</Typography> 
+                                  <Typography className={contactClasses.name} ><a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></Typography> 
                                 </div>
                                 <div className={contactClasses.member}>
                                   <Typography className={contactClasses.name} gutterBottom variant='body1' >Secretaris Marije de Vries</Typography>
-                                  <Typography className={contactClasses.name} >e-mail@.nl</Typography> 
+                                  <Typography className={contactClasses.name} ><a href="mailto:secretaris.lrdedrentscheaa@gmail.com">secretaris.lrdedrentscheaa@gmail.com</a></Typography> 
                                 </div>
                                 <div className={contactClasses.member}>
                                   <Typography className={contactClasses.name} gutterBottom variant='body1' >Penningmeester Rolf Boer</Typography>
-                                  <Typography className={contactClasses.name}>e-mail@.nl</Typography> 
+                                  <Typography className={contactClasses.name}><a href="mailto:penningmeester.lrdedrentscheaa@gmail.com">penningmeester.lrdedrentscheaa@gmail.com</a></Typography> 
                                 </div>
                                 <div className={contactClasses.member}>
                                   <Typography className={contactClasses.name} gutterBottom variant='body1' >Algemeen bestuurslid Marcel hulzebos</Typography>
-                                  <Typography className={contactClasses.name} >e-mail@.nl</Typography> 
+                                  <Typography className={contactClasses.name} ><a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></Typography> 
                                 </div>
                                 <div className={contactClasses.member}>
                                   <Typography className={contactClasses.name} gutterBottom variant='body1' >Algemeen bestuurslid Miranda Trip</Typography>
-                                  <Typography className={contactClasses.name} >e-mail@.nl</Typography> 
+                                  <Typography className={contactClasses.name} ><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></Typography> 
                                 </div>
                                 <div className={contactClasses.member}>
                                   <Typography className={contactClasses.name} gutterBottom variant='body1' >Algemeen bestuurslid Chanal Wieringa</Typography>
-                                  <Typography className={contactClasses.name} >e-mail@.nl</Typography> 
+                                  <Typography className={contactClasses.name} ><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></Typography> 
                                 </div>
                             </div>
                             

@@ -1,10 +1,13 @@
-import { Grid,Link } from '@material-ui/core'
+import { Grid,Link,Typography } from '@material-ui/core'
 
 import { withRouter } from "react-router";
 import { useFooterStyles } from "../styles/overRides";
 import EXPERT from '../images/expert.png';
 import ST from '../images/st.jpg';
 import TR from '../images/tr.png';
+import DR from '../images/dressage.jpg';
+import NY from '../images/nyland.jpg';
+
 const Footer = (props) => {
   const classes = useFooterStyles()
   
@@ -30,6 +33,16 @@ return(
                   <img alt="sponsor" className={classes.img} src={TR} />
               </div>
           </Grid>
+          <Grid  item>
+              <div className={classes.imgHolder} >
+                  <img alt="sponsor" className={classes.img} src={DR} />
+              </div>
+          </Grid>
+          <Grid  item>
+              <div className={classes.imgHolder} >
+                  <img alt="sponsor" className={classes.img} src={NY} />
+              </div>
+          </Grid>
        </Grid>
        <Grid alignItems="center" justifyContent="center" container spacing={3}>
            
@@ -43,6 +56,11 @@ return(
            <Grid item><Link style={{fontFamily:'Mulish,cursive'}} href="" color="inherit" onClick={()=> handleRoute('/sponsors')}>Sponsoren</Link>   </Grid>
            <Grid item><Link style={{fontFamily:'Mulish,cursive'}} href="" color="inherit" onClick={()=> handleRoute('/contact')}>Contact</Link></Grid>
            
+       </Grid>
+       <Grid alignItems="center" justifyContent="center" container spacing={3} style={{marginTop:'2em'}}>
+            <Typography gutterBottom variant="body1">
+                Website ontwikkeling door <img src="/nyland-thumb.jpg" alt="nyland thumb" />
+            </Typography>    
        </Grid>
     </div>
 )} 

@@ -20,7 +20,7 @@ export const useHeaderStyles = makeStyles((theme) => ({
     },
     img: {
         padding: '0 1rem',
-        width: '150px',
+        width: '180px',
         maxWidth: '100%'
     },
     menu: {
@@ -109,6 +109,7 @@ export const useHomeStyles = makeStyles((theme) => ({
             '& > *': {
                 transform: 'skew(0deg)',
             },
+            padding: '1.0rem',
         },
         '&:last-child': {
             backgroundColor: "rgb(124, 179, 191,.6)",
@@ -291,7 +292,8 @@ export const useTitleStyles = makeStyles((theme) => ({
 export const useFooterStyles = makeStyles({
     footerWrapper :{
         padding:"3rem",
-        marginTop:'2rem'
+        marginTop:'2rem',
+        backgroundColor:'#F5F5F6',
     },
     imgHolder:{
         maxWidth:'10rem',

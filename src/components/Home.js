@@ -67,8 +67,9 @@ const Home = (props) => {
                 </Suspense>
                 <div className={classes.gridWrapper}>
                     <Grid justifyContent='center' container>
-                        <Grid className={classes.homeGrid} item>
-                            <Typography className={classes.homeHeader} variant="h2">Welkom bij</Typography>
+                        <Grid className={classes.homeGrid} md={6} item>
+                            <Typography xs={6} className={classes.homeHeader} variant="h2">Welkom bij</Typography>
+                            
                         </Grid>
                         <Grid className={classes.homeGrid}>
                             <div className={classes.banner} >
@@ -95,7 +96,7 @@ const Home = (props) => {
                         <Typography variant="body1" style={{marginTop:'8px',textAlign:'justify'}} >Wij willen een actieve vereniging zijn waar de verenigingslessen en -activiteiten een plaats van ontmoeting en gezelligheid zijn. Naast gezelligheid is het aanbieden van kwaliteitsvolle lessen een belangrijk speerpunt. Gedreven en deskundige instructeurs geven les aan combinaties van alle leeftijden en niveaus in de disciplines dressuur en springen. Zowel de wedstrijdruiters als de recreanten zijn van harte welkom.</Typography>
                     </Grid>
                     <Grid item >
-                        <img src="/rolf-image.jpg" alt="Rolf" style={{maxWidth:'99%'}}/>
+                        <img src="/office.jpg" alt="Office" style={{maxWidth:'99%'}}/>
                     </Grid>
                 </Grid>
             </div>
@@ -103,34 +104,34 @@ const Home = (props) => {
                 <Grid justifyContent='center' container style={{marginBottom:'20px'}}>
                 <Typography className={classes.homeHeader} variant="h2">Bestuursleden</Typography>
                  </Grid>   
-                <Carousel responsive={responsive} autoPlaySpeed={1000}  infinite={true} ssr={true}>
+                <Carousel responsive={responsive} autoPlaySpeed={2000}  infinite={true} ssr={true} autoPlay={true}>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/president.jpg" style={{width:'280px',height:'280px',borderRadius:'194px'}} alt="President"/>
+                        <img src="/members/president.jpg" style={{width:'280px',height:'280px'}} alt="President"/>
                         <Typography className={classes.homeHeader} variant="h6">Chantal Wieringa</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography>
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/vice.jpg" style={{width:'280px',height:'280px',borderRadius:'194px'}} alt="vice president"/>
+                        <img src="/members/vice.jpg" style={{width:'280px',height:'280px'}} alt="vice president"/>
                         <Typography className={classes.homeHeader} variant="h6">Rolf Boer</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Penningmeester</Typography>
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/marcel.jpg" style={{width:'280px',height:'280px',borderRadius:'194px'}} alt="marcel"/>
+                        <img src="/members/marcel.jpg" style={{width:'280px',height:'280px'}} alt="marcel"/>
                         <Typography className={classes.homeHeader} variant="h6">Marcel Hulzebosa</Typography> 
                         <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography>   
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/marijke.jpg" style={{width:'280px',height:'280px',borderRadius:'194px'}} alt="marijke"/>
+                        <img src="/members/marijke.jpg" style={{width:'280px',height:'280px'}} alt="marijke"/>
                         <Typography className={classes.homeHeader} variant="h6">Marije de Vries</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Secretaris en vice-voorzitter</Typography>   
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/nancy.jpg" style={{width:'280px',height:'280px',borderRadius:'194px'}} alt="nancy"/>
+                        <img src="/members/nancy.jpg" style={{width:'280px',height:'280px'}} alt="nancy"/>
                         <Typography className={classes.homeHeader} variant="h6">Nancy Bootsman</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Voorzitter</Typography> 
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/miranda.jpg" style={{width:'280px',height:'280px',borderRadius:'194px'}} alt="nancy"/>
+                        <img src="/members/miranda.jpg" style={{width:'280px',height:'280px'}} alt="nancy"/>
                         <Typography className={classes.homeHeader} variant="h6">Miranda Trip</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography> 
                     </div>
@@ -302,12 +303,12 @@ const Home = (props) => {
                             </Typography>
                                 <Typography className={aboutclasses.text} gutterBottom variant="body1">
                                     <table>
-                                        <tr><td style={{width:'19%'}}><strong>Marije</strong></td><td>secretaris.lrdedrentscheaa@gmail.com</td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Nancy</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Rolf</strong></td><td> penningmeester.lrdedrentscheaa@gmail.com</td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Marcel</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Miranda</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Chantal</strong></td><td> info.lrdedrentscheaa@gmail.com</td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Marije</strong></td><td><a href="mailto:secretaris.lrdedrentscheaa@gmail.com">secretaris.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Nancy</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Rolf</strong></td><td> <a href="mailto:penningmeester.lrdedrentscheaa@gmail.com">penningmeester.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Marcel</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Miranda</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'19%'}}><strong>Chantal</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
                                     </table>
                                 </Typography>
                             </Paper>
