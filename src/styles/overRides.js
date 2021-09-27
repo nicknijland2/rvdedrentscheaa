@@ -21,7 +21,10 @@ export const useHeaderStyles = makeStyles((theme) => ({
     img: {
         padding: '0 1rem',
         width: '180px',
-        maxWidth: '100%'
+        maxWidth: '100%',
+        [theme.breakpoints.down('sm')]: {
+            width: '100px',
+        }
     },
     menu: {
         flexGrow: 1,
@@ -53,6 +56,11 @@ export const useHomeStyles = makeStyles((theme) => ({
         position: 'relative',
         width: '100%',
         ...addBorder('.5px', 'transparent'),
+        
+        [theme.breakpoints.down('xs')]:{
+            marginTop:'5rem'
+        }
+
     },
     videoHolder: {
         position: 'absolute',
@@ -77,7 +85,7 @@ export const useHomeStyles = makeStyles((theme) => ({
         display: 'flex',
         transform: 'skew(-12deg)',
         '& > *': {
-            transform: 'skew(12deg)',
+            transform: 'skew(0deg)',
         },
         [theme.breakpoints.down('sm')]: {
             transform: 'skew(0deg)',
@@ -147,6 +155,28 @@ export const useHomeStyles = makeStyles((theme) => ({
         [theme.breakpoints.down('sm')]: {
             width: '65px',
             height: '52px',
+        }
+    },
+    overOnsText:{
+        padding: '0px 38px 0px 0px',
+        [theme.breakpoints.down('xs')]: {
+            padding: '0px 0px 0px 0px',
+         }
+    },
+    officeImage:{
+        maxWidth:'99%',
+        height:'97%',
+        borderRadius:'263px',
+        [theme.breakpoints.down('xs')]: {
+            maxWidth:'92%',
+            height:'130%',
+        }
+    },
+    officeImageContainer:{
+        [theme.breakpoints.down('xs')]: {
+           marginTop:'2rem',
+           marginBottom:'2rem',
+           marginLeft:'2rem',
         }
     }
 }));

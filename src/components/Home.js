@@ -68,7 +68,7 @@ const Home = (props) => {
                 <div className={classes.gridWrapper}>
                     <Grid justifyContent='center' container>
                         <Grid className={classes.homeGrid} md={6} item>
-                            <Typography xs={6} className={classes.homeHeader} style={{fontSize:'3.6rem'}}>Welkom bij</Typography>
+                            <Typography xs={6} className={classes.homeHeader} style={{fontSize:'3.6rem',fontStyle:'italic'}}>Welkom bij</Typography>
                             
                         </Grid>
                         <Grid className={classes.homeGrid}>
@@ -89,7 +89,7 @@ const Home = (props) => {
             </div>
             <div className={classes.homeWrapper} style={{marginTop:'50px'}}>
                 <Grid justifyContent='center' container spacing={0} m={4}>
-                    <Grid item xs={12} md={5} style={{padding:'0px 10px 0px 0px'}}>
+                    <Grid item xs={12} md={5} className={classes.overOnsText}>
                         <Typography className={classes.homeHeader} variant="h2">Over Ons</Typography>
                         <Typography variant="body1" style={{textAlign:'justify'}}>Landelijke rijvereniging & ponyclub De Drentsche Aa is ontstaan uit de behoefte aan een ouderwetse rijvereniging van weleer. Een vereniging waar onderlinge verbondenheid en saamhorigheid de boventoon voeren. Waar de verenigingslessen een avondje uit zijn en in de kantine de sfeer hangt van een bruin café. Vanuit die gedachte heeft op woensdag 17 maart 2021 de eerste verkennende bespreking plaatsgevonden tussen de bestuursleden en vele vergaderingen later zag landelijke rijverenging & ponyclub De Drentsche Aa op 1 augustus het levenslicht.</Typography>
                         
@@ -100,8 +100,8 @@ const Home = (props) => {
                             Passend bij onze ambities hebben wij als uitvalsbasis de prachtige locatie van Sunrise Stables in Assen. Hier vinden onze verenigingslessen en overige activiteiten plaats.
                         </Typography>
                     </Grid>
-                    <Grid item >
-                        <img src="/office.jpg" alt="Office" style={{maxWidth:'99%'}}/>
+                    <Grid item className={classes.officeImageContainer}>
+                        <img src="/office.jpg" alt="Office" className={classes.officeImage}/>
                     </Grid>
                 </Grid>
             </div>
@@ -140,7 +140,7 @@ const Home = (props) => {
                         <Typography className={classes.homeHeader} variant="h6">Miranda Trip</Typography>
                         <Typography className={classes.homeHeader} variant="body1">Algemeen bestuurslid</Typography> 
                     </div>
-                </Carousel>;
+                </Carousel>
             </div>
             <div className={generics.root} style={{marginTop:'80px'}}>
             <Grid container spacing={4}>
@@ -309,12 +309,12 @@ const Home = (props) => {
                                 <Typography className={aboutclasses.text} gutterBottom variant="body1">
                                     <table>
                                         <tbody>
-                                        <tr><td style={{width:'19%'}}><strong>Marije</strong></td><td><a href="mailto:secretaris.lrdedrentscheaa@gmail.com" >secretaris.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Nancy</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Rolf</strong></td><td> <a href="mailto:penningmeester.lrdedrentscheaa@gmail.com">penningmeester.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Marcel</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Miranda</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'19%'}}><strong>Chantal</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Marije</strong></td><td><a href="mailto:secretaris.lrdedrentscheaa@gmail.com" >secretaris.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Nancy</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Rolf</strong></td><td> <a href="mailto:penningmeester.lrdedrentscheaa@gmail.com">penningmeester.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Marcel</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Miranda</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Chantal</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
                                         </tbody>
                                     </table>
                                 </Typography>
