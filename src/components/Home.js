@@ -68,7 +68,7 @@ const Home = (props) => {
                 <div className={classes.gridWrapper}>
                     <Grid justifyContent='center' container>
                         <Grid className={classes.homeGrid} md={6} item>
-                            <Typography xs={6} className={classes.homeHeader} style={{fontSize:'3.6rem',fontStyle:'italic'}}>Welkom bij</Typography>
+                            <Typography xs={6} className={classes.homeHeader}>Welkom bij</Typography>
                             
                         </Grid>
                         <Grid className={classes.homeGrid}>
@@ -309,12 +309,12 @@ const Home = (props) => {
                                 <Typography className={aboutclasses.text} gutterBottom variant="body1">
                                     <table>
                                         <tbody>
-                                        <tr><td style={{width:'18%'}}><strong>Marije</strong></td><td><a href="mailto:secretaris.lrdedrentscheaa@gmail.com" >secretaris.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'18%'}}><strong>Nancy</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'18%'}}><strong>Rolf</strong></td><td> <a href="mailto:penningmeester.lrdedrentscheaa@gmail.com">penningmeester.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'18%'}}><strong>Marcel</strong></td><td> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'18%'}}><strong>Miranda</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
-                                        <tr><td style={{width:'18%'}}><strong>Chantal</strong></td><td><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Marije</strong></td><td style={{width:'60%',wordBreak:'break-all'}}><a href="mailto:secretaris.lrdedrentscheaa@gmail.com" >secretaris.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Nancy</strong></td><td style={{width:'60%',wordBreak:'break-all'}}> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Rolf</strong></td><td style={{width:'60%',wordBreak:'break-all'}}> <a href="mailto:penningmeester.lrdedrentscheaa@gmail.com">penningmeester.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Marcel</strong></td><td style={{width:'60%',wordBreak:'break-all'}}> <a href="mailto:info.lrdedrentscheaa@gmail.com">info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Miranda</strong></td><td style={{width:'60%',wordBreak:'break-all'}}><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
+                                        <tr><td style={{width:'18%'}}><strong>Chantal</strong></td><td style={{width:'60%',wordBreak:'break-all'}}><a href="mailto:info.lrdedrentscheaa@gmail.com"> info.lrdedrentscheaa@gmail.com</a></td></tr>
                                         </tbody>
                                     </table>
                                 </Typography>

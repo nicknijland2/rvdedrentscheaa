@@ -30,7 +30,7 @@ const NavBar = (props) => {
       <CustomHeader elevation={0} position="static">
         <CustomToolBar>
           <div className={classes.logo}>
-            <img className={classes.img} alt="Company Logo" src={PlaceHolder} />
+            <img className={classes.img}  onClick={()=> handleRoute('/')} alt="Company Logo" src={PlaceHolder} />
           </div>
           <div className={classes.menu}>
               <CustomButton  

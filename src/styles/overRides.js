@@ -22,6 +22,7 @@ export const useHeaderStyles = makeStyles((theme) => ({
         padding: '0 1rem',
         width: '180px',
         maxWidth: '100%',
+        cursor:'pointer',
         [theme.breakpoints.down('sm')]: {
             width: '100px',
         }
@@ -125,8 +126,13 @@ export const useHomeStyles = makeStyles((theme) => ({
         }
     },
     homeHeader: {
-        fontWeight: '700',
-        opacity: .7
+        fontWeight: '800',
+        opacity: .7,
+        fontSize:'3.6rem',
+        [theme.breakpoints.down('xs')]: {
+            fontSize:'2.8rem'
+        }
+
     },
     banner: {
         padding: '1rem',
